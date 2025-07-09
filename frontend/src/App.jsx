@@ -22,7 +22,7 @@ const App = () => {
   const isAuthenticated = Boolean(authUser);
   const isOnboarded = authUser?.isOnboarded;
 
-  if (isLoading) return <PageLoader />;
+  if (isLoading) return <PageLoader/>;
   console.log("Loading:", isLoading, "AuthUser:", authUser);
 
   return (
